@@ -1,0 +1,24 @@
+@import '../../../sass/general/_variable.scss';
+.client {
+    margin: $mainMargin;
+    background-color: $background;
+    overflow: hidden;
+    padding: 50px;
+    .slider
+    {
+      .sliderBoxes{
+        margin-bottom: 30px;
+          img{
+            max-width:100px;
+            max-height: 100px;
+          }
+         .content{
+           margin-top: 20px;
+         }
+       
+      }
+    }
+  }
+  .slick-arrow , .slick-next {
+    display: none !important;
+  }

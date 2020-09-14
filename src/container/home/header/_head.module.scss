@@ -1,0 +1,26 @@
+@import '../../../sass/general/variable';
+.head {
+    height: 620px;
+    background: url(../../../assets/head.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0 0 150px 150px;
+    overflow: hidden;
+    margin-bottom: 100px;
+    color: #fff;
+    .content{
+      z-index: 3;
+      text-align: center;
+      p {
+        font-size: 20px;
+      }
+     }
+  }
+  @media (max-width : 500px ){
+    .head {
+      height:100vh;
+      border-radius:0 0 80px 80px;
+      background-position: bottom;
+    }
+  }
+  

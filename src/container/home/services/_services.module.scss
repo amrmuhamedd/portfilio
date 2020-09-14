@@ -1,0 +1,31 @@
+@import '../../../sass/general/variable';
+.service{
+    margin: $mainMargin;
+    background-color: $background;
+    padding: 50px ;
+  
+    
+    .serviceBox {
+        padding: 10px;
+        i {
+            font-size: 50px;
+            margin: 10px 0;
+            color: $activeColor;
+        }
+        h2 {
+            margin-bottom:0;
+        }
+        .serviceBorder{
+            display: inline-block;
+            background-color: $activeColor;
+            width: 50px;
+            height: 5px;
+            margin-bottom: 5px;
+            transition: all 1s ease-in-out;
+        }
+        &:hover .serviceBorder {
+            width: 100px;
+        }
+    }
+    
+}

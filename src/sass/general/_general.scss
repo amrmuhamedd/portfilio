@@ -1,0 +1,45 @@
+
+body {
+    position: relative;
+    background-color: #ecf0f1;
+    }
+    .overlay {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      top: 0;
+      left: 0;
+      background-color: rgba(0, 0, 0, .5);
+      height: 100%;
+      width: 100%;
+    }
+    .scroll-top {
+      position: fixed;
+      bottom: 20px;
+      right: 30px;
+      cursor: pointer;
+      color: #fff;
+      text-align: center;
+      display: none;
+      background-color: $activeColor;
+      border-radius: 50% ;
+    }
+    .hidden {
+      display: block;
+    }
+    .sticky{
+    position: fixed;
+    top: 0;
+    background-color:#fff ;
+    .navbar-nav .nav-item .nav-link,.navbar-brand {
+      color: #000;
+    }
+    .navbar-nav  .nav-link.active {
+      color:$activeColor;
+    }
+    
+  }
+  .navbar .navbar-nav  .nav-link.active {
+    color:$activeColor;
+  }

@@ -1,0 +1,239 @@
+body {
+  position: relative;
+  background-color: #ecf0f1;
+}
+
+.overlay {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+}
+
+.scroll-top {
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+  cursor: pointer;
+  color: #fff;
+  text-align: center;
+  display: none;
+  background-color: #0984e3;
+  border-radius: 50%;
+}
+
+.hidden {
+  display: block;
+}
+
+.navbar {
+  display: block !important;
+  width: 100% !important;
+  position: absolute;
+  z-index: 9999;
+  padding: 10px 0;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+  cursor: pointer;
+  color: #fff;
+}
+
+.navbar .navbar-nav .nav-link.active {
+  color: #0984e3;
+}
+
+.navbar-brand {
+  color: #fff;
+}
+
+.navbar-brand:hover {
+  color: #fff;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  background-color: #fff;
+}
+
+.sticky .navbar-nav .nav-item .nav-link, .sticky .navbar-brand {
+  color: #000;
+}
+
+.sticky .navbar-nav .nav-link.active {
+  color: #0984e3;
+}
+
+.head {
+  height: 620px;
+  background: url(./img/head.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 0 0 150px 150px;
+  overflow: hidden;
+  margin-bottom: 100px;
+  color: #fff;
+}
+
+.head .content {
+  z-index: 3;
+  text-align: center;
+}
+
+@media (max-width: 500px) {
+  .head {
+    height: 320px;
+  }
+}
+
+.about {
+  margin: 100px 0;
+}
+
+.about .img img {
+  width: 100%;
+  max-height: 70%;
+  padding: 5px;
+  border: 1px solid #7f8c8d;
+}
+
+.about .about-content {
+  overflow: hidden;
+}
+
+.about .about-content h2 {
+  font-size: 40px;
+  margin-top: 0;
+  padding-top: 0;
+  font-weight: bold;
+}
+
+.about .about-content h3 {
+  font-size: 30px;
+}
+
+.about .about-content h3 span {
+  color: #0984e3;
+}
+
+.about .about-content p {
+  color: #7f8c8d;
+  line-height: 1.5;
+}
+
+.about .about-content .social {
+  display: inline-block;
+  margin: 10px;
+  font-size: 25px;
+  padding: 10px 15px;
+  border: 2px solid #7f8c8d;
+  border-radius: 50%;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  cursor: pointer;
+}
+
+.about .about-content .social a {
+  color: #7f8c8d;
+}
+
+.about .about-content .social:hover, .about .about-content .social:hover a {
+  color: #0984e3;
+  border-color: #0984e3;
+}
+
+@media (max-width: 992px) {
+  .about .about-content {
+    margin-top: 30px;
+  }
+}
+
+.service {
+  margin: 100px 0;
+  background-color: #bdc3c7;
+  padding: 50px;
+}
+
+.service .service-box {
+  padding: 10px;
+}
+
+.service .service-box i {
+  font-size: 50px;
+  margin: 10px 0;
+  color: #0984e3;
+}
+
+.service .service-box h2 {
+  margin-bottom: 0;
+}
+
+.service .service-box .service-border {
+  display: inline-block;
+  background-color: #0984e3;
+  width: 50px;
+  height: 5px;
+  margin-bottom: 5px;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+.service .service-box:hover .service-border {
+  width: 100px;
+}
+
+.freelancer {
+  padding: 20px;
+  width: 100%;
+}
+
+.freelancer h2 {
+  margin-bottom: 10px;
+}
+
+.freelancer a {
+  margin: 10px;
+}
+
+.client {
+  margin: 100px 0;
+  background-color: #bdc3c7;
+  overflow: hidden;
+  padding: 50px;
+}
+
+.client .slider .slider-boxes {
+  margin-bottom: 30px;
+}
+
+.client .slider .slider-boxes img {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.client .slider .slider-boxes .content {
+  margin-top: 20px;
+}
+
+.myWork {
+  height: 600px;
+}
+
+.footer {
+  height: 600px;
+}
+/*# sourceMappingURL=App.css.map */
